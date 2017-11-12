@@ -163,6 +163,10 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 <text x="3.7846" y="66.9798" size="1.778" layer="25" font="vector">Orbitty Carrier
 Adrian Brandemuehl</text>
+<text x="1.524" y="-0.508" size="1.778" layer="25">1</text>
+<text x="3.048" y="-0.508" size="1.778" layer="26" rot="SMR0">1</text>
+<text x="103.632" y="-1.016" size="1.778" layer="26" rot="SMR0">40</text>
+<text x="100.584" y="-1.016" size="1.778" layer="25">40</text>
 </plain>
 <libraries>
 <library name="auv">

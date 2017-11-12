@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -163,6 +163,10 @@
 <wire x1="0" y1="37.77" x2="0" y2="0" width="0" layer="20"/>
 <text x="24.13" y="11.43" size="1.778" layer="25" font="vector">Card Edge Breakout
 Adrian Brandemuehl</text>
+<text x="2.54" y="1.27" size="1.778" layer="25" rot="R180">1</text>
+<text x="2.54" y="-0.508" size="1.778" layer="26" rot="SMR0">1</text>
+<text x="102.87" y="-0.762" size="1.778" layer="26" rot="SMR0">40</text>
+<text x="100.33" y="-0.762" size="1.778" layer="25" rot="SR0">40</text>
 </plain>
 <libraries>
 <library name="auv">

@@ -163,6 +163,10 @@
 <wire x1="0" y1="99.06" x2="0" y2="0" width="0" layer="20"/>
 <text x="2.4638" y="66.0908" size="1.778" layer="25" font="vector">Pixhawk Carrier
 Adrian Brandemuehl</text>
+<text x="2.286" y="-0.762" size="1.778" layer="25">1</text>
+<text x="100.076" y="-1.27" size="1.778" layer="25">40</text>
+<text x="102.87" y="-1.27" size="1.778" layer="26" rot="MR0">40</text>
+<text x="3.81" y="-0.762" size="1.778" layer="26" rot="MR0">1</text>
 </plain>
 <libraries>
 <library name="auv">
