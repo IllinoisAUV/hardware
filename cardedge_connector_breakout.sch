@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -161,86 +161,86 @@
 <library name="auv">
 <packages>
 <package name="TE-2-5530843-0">
-<pad name="11" x="-24.13" y="2.4257" drill="0.65"/>
-<pad name="12" x="-21.59" y="2.4257" drill="0.65"/>
-<pad name="13" x="-19.05" y="2.4257" drill="0.65"/>
-<pad name="14" x="-16.51" y="2.4257" drill="0.65"/>
-<pad name="15" x="-13.97" y="2.4257" drill="0.65"/>
-<pad name="16" x="-11.43" y="2.4257" drill="0.65"/>
-<pad name="17" x="-8.89" y="2.4257" drill="0.65"/>
-<pad name="18" x="-6.35" y="2.4257" drill="0.65"/>
-<pad name="19" x="-3.81" y="2.4257" drill="0.65"/>
-<pad name="20" x="-1.27" y="2.4257" drill="0.65"/>
-<pad name="1" x="-49.53" y="2.4257" drill="0.65"/>
-<pad name="2" x="-46.99" y="2.4257" drill="0.65"/>
-<pad name="3" x="-44.45" y="2.4257" drill="0.65"/>
-<pad name="4" x="-41.91" y="2.4257" drill="0.65"/>
-<pad name="5" x="-39.37" y="2.4257" drill="0.65"/>
-<pad name="6" x="-36.83" y="2.4257" drill="0.65"/>
-<pad name="7" x="-34.29" y="2.4257" drill="0.65"/>
-<pad name="8" x="-31.75" y="2.4257" drill="0.65"/>
-<pad name="9" x="-29.21" y="2.4257" drill="0.65"/>
-<pad name="10" x="-26.67" y="2.4257" drill="0.65"/>
-<pad name="30" x="24.13" y="2.4257" drill="0.65"/>
-<pad name="31" x="26.67" y="2.4257" drill="0.65"/>
-<pad name="32" x="29.21" y="2.4257" drill="0.65"/>
-<pad name="33" x="31.75" y="2.4257" drill="0.65"/>
-<pad name="34" x="34.29" y="2.4257" drill="0.65"/>
-<pad name="35" x="36.83" y="2.4257" drill="0.65"/>
-<pad name="36" x="39.37" y="2.4257" drill="0.65"/>
-<pad name="37" x="41.91" y="2.4257" drill="0.65"/>
-<pad name="38" x="44.45" y="2.4257" drill="0.65"/>
-<pad name="21" x="1.27" y="2.4257" drill="0.65"/>
-<pad name="22" x="3.81" y="2.4257" drill="0.65"/>
-<pad name="23" x="6.35" y="2.4257" drill="0.65"/>
-<pad name="24" x="8.89" y="2.4257" drill="0.65"/>
-<pad name="25" x="11.43" y="2.4257" drill="0.65"/>
-<pad name="26" x="13.97" y="2.4257" drill="0.65"/>
-<pad name="27" x="16.51" y="2.4257" drill="0.65"/>
-<pad name="28" x="19.05" y="2.4257" drill="0.65"/>
-<pad name="29" x="21.59" y="2.4257" drill="0.65"/>
-<pad name="39" x="46.99" y="2.4257" drill="0.65"/>
-<pad name="40" x="49.53" y="2.4257" drill="0.65"/>
-<pad name="41" x="-49.53" y="-2.4257" drill="0.65"/>
-<pad name="42" x="-46.99" y="-2.4257" drill="0.65"/>
-<pad name="43" x="-44.45" y="-2.4257" drill="0.65"/>
-<pad name="44" x="-41.91" y="-2.4257" drill="0.65"/>
-<pad name="45" x="-39.37" y="-2.4257" drill="0.65"/>
-<pad name="46" x="-36.83" y="-2.4257" drill="0.65"/>
-<pad name="47" x="-34.29" y="-2.4257" drill="0.65"/>
-<pad name="48" x="-31.75" y="-2.4257" drill="0.65"/>
-<pad name="49" x="-29.21" y="-2.4257" drill="0.65"/>
-<pad name="50" x="-26.67" y="-2.4257" drill="0.65"/>
-<pad name="51" x="-24.13" y="-2.4257" drill="0.65"/>
-<pad name="52" x="-21.59" y="-2.4257" drill="0.65"/>
-<pad name="53" x="-19.05" y="-2.4257" drill="0.65"/>
-<pad name="54" x="-16.51" y="-2.4257" drill="0.65"/>
-<pad name="55" x="-13.97" y="-2.4257" drill="0.65"/>
-<pad name="56" x="-11.43" y="-2.4257" drill="0.65"/>
-<pad name="57" x="-8.89" y="-2.4257" drill="0.65"/>
-<pad name="58" x="-6.35" y="-2.4257" drill="0.65"/>
-<pad name="59" x="-3.81" y="-2.4257" drill="0.65"/>
-<pad name="60" x="-1.27" y="-2.4257" drill="0.65"/>
-<pad name="61" x="1.27" y="-2.4257" drill="0.65"/>
-<pad name="62" x="3.81" y="-2.4257" drill="0.65"/>
-<pad name="63" x="6.35" y="-2.4257" drill="0.65"/>
-<pad name="64" x="8.89" y="-2.4257" drill="0.65"/>
-<pad name="65" x="11.43" y="-2.4257" drill="0.65"/>
-<pad name="66" x="13.97" y="-2.4257" drill="0.65"/>
-<pad name="67" x="16.51" y="-2.4257" drill="0.65"/>
-<pad name="68" x="19.05" y="-2.4257" drill="0.65"/>
-<pad name="69" x="21.59" y="-2.4257" drill="0.65"/>
-<pad name="70" x="24.13" y="-2.4257" drill="0.65"/>
-<pad name="71" x="26.67" y="-2.4257" drill="0.65"/>
-<pad name="72" x="29.21" y="-2.4257" drill="0.65"/>
-<pad name="73" x="31.75" y="-2.4257" drill="0.65"/>
-<pad name="74" x="34.29" y="-2.4257" drill="0.65"/>
-<pad name="75" x="36.83" y="-2.4257" drill="0.65"/>
-<pad name="76" x="39.37" y="-2.4257" drill="0.65"/>
-<pad name="77" x="41.91" y="-2.4257" drill="0.65"/>
-<pad name="78" x="44.45" y="-2.4257" drill="0.65"/>
-<pad name="79" x="46.99" y="-2.4257" drill="0.65"/>
-<pad name="80" x="49.53" y="-2.4257" drill="0.65"/>
+<pad name="11" x="-24.13" y="2.4257" drill="1.016"/>
+<pad name="12" x="-21.59" y="2.4257" drill="1.016"/>
+<pad name="13" x="-19.05" y="2.4257" drill="1.016"/>
+<pad name="14" x="-16.51" y="2.4257" drill="1.016"/>
+<pad name="15" x="-13.97" y="2.4257" drill="1.016"/>
+<pad name="16" x="-11.43" y="2.4257" drill="1.016"/>
+<pad name="17" x="-8.89" y="2.4257" drill="1.016"/>
+<pad name="18" x="-6.35" y="2.4257" drill="1.016"/>
+<pad name="19" x="-3.81" y="2.4257" drill="1.016"/>
+<pad name="20" x="-1.27" y="2.4257" drill="1.016"/>
+<pad name="1" x="-49.53" y="2.4257" drill="1.016"/>
+<pad name="2" x="-46.99" y="2.4257" drill="1.016"/>
+<pad name="3" x="-44.45" y="2.4257" drill="1.016"/>
+<pad name="4" x="-41.91" y="2.4257" drill="1.016"/>
+<pad name="5" x="-39.37" y="2.4257" drill="1.016"/>
+<pad name="6" x="-36.83" y="2.4257" drill="1.016"/>
+<pad name="7" x="-34.29" y="2.4257" drill="1.016"/>
+<pad name="8" x="-31.75" y="2.4257" drill="1.016"/>
+<pad name="9" x="-29.21" y="2.4257" drill="1.016"/>
+<pad name="10" x="-26.67" y="2.4257" drill="1.016"/>
+<pad name="30" x="24.13" y="2.4257" drill="1.016"/>
+<pad name="31" x="26.67" y="2.4257" drill="1.016"/>
+<pad name="32" x="29.21" y="2.4257" drill="1.016"/>
+<pad name="33" x="31.75" y="2.4257" drill="1.016"/>
+<pad name="34" x="34.29" y="2.4257" drill="1.016"/>
+<pad name="35" x="36.83" y="2.4257" drill="1.016"/>
+<pad name="36" x="39.37" y="2.4257" drill="1.016"/>
+<pad name="37" x="41.91" y="2.4257" drill="1.016"/>
+<pad name="38" x="44.45" y="2.4257" drill="1.016"/>
+<pad name="21" x="1.27" y="2.4257" drill="1.016"/>
+<pad name="22" x="3.81" y="2.4257" drill="1.016"/>
+<pad name="23" x="6.35" y="2.4257" drill="1.016"/>
+<pad name="24" x="8.89" y="2.4257" drill="1.016"/>
+<pad name="25" x="11.43" y="2.4257" drill="1.016"/>
+<pad name="26" x="13.97" y="2.4257" drill="1.016"/>
+<pad name="27" x="16.51" y="2.4257" drill="1.016"/>
+<pad name="28" x="19.05" y="2.4257" drill="1.016"/>
+<pad name="29" x="21.59" y="2.4257" drill="1.016"/>
+<pad name="39" x="46.99" y="2.4257" drill="1.016"/>
+<pad name="40" x="49.53" y="2.4257" drill="1.016"/>
+<pad name="41" x="-49.53" y="-2.4257" drill="1.016"/>
+<pad name="42" x="-46.99" y="-2.4257" drill="1.016"/>
+<pad name="43" x="-44.45" y="-2.4257" drill="1.016"/>
+<pad name="44" x="-41.91" y="-2.4257" drill="1.016"/>
+<pad name="45" x="-39.37" y="-2.4257" drill="1.016"/>
+<pad name="46" x="-36.83" y="-2.4257" drill="1.016"/>
+<pad name="47" x="-34.29" y="-2.4257" drill="1.016"/>
+<pad name="48" x="-31.75" y="-2.4257" drill="1.016"/>
+<pad name="49" x="-29.21" y="-2.4257" drill="1.016"/>
+<pad name="50" x="-26.67" y="-2.4257" drill="1.016"/>
+<pad name="51" x="-24.13" y="-2.4257" drill="1.016"/>
+<pad name="52" x="-21.59" y="-2.4257" drill="1.016"/>
+<pad name="53" x="-19.05" y="-2.4257" drill="1.016"/>
+<pad name="54" x="-16.51" y="-2.4257" drill="1.016"/>
+<pad name="55" x="-13.97" y="-2.4257" drill="1.016"/>
+<pad name="56" x="-11.43" y="-2.4257" drill="1.016"/>
+<pad name="57" x="-8.89" y="-2.4257" drill="1.016"/>
+<pad name="58" x="-6.35" y="-2.4257" drill="1.016"/>
+<pad name="59" x="-3.81" y="-2.4257" drill="1.016"/>
+<pad name="60" x="-1.27" y="-2.4257" drill="1.016"/>
+<pad name="61" x="1.27" y="-2.4257" drill="1.016"/>
+<pad name="62" x="3.81" y="-2.4257" drill="1.016"/>
+<pad name="63" x="6.35" y="-2.4257" drill="1.016"/>
+<pad name="64" x="8.89" y="-2.4257" drill="1.016"/>
+<pad name="65" x="11.43" y="-2.4257" drill="1.016"/>
+<pad name="66" x="13.97" y="-2.4257" drill="1.016"/>
+<pad name="67" x="16.51" y="-2.4257" drill="1.016"/>
+<pad name="68" x="19.05" y="-2.4257" drill="1.016"/>
+<pad name="69" x="21.59" y="-2.4257" drill="1.016"/>
+<pad name="70" x="24.13" y="-2.4257" drill="1.016"/>
+<pad name="71" x="26.67" y="-2.4257" drill="1.016"/>
+<pad name="72" x="29.21" y="-2.4257" drill="1.016"/>
+<pad name="73" x="31.75" y="-2.4257" drill="1.016"/>
+<pad name="74" x="34.29" y="-2.4257" drill="1.016"/>
+<pad name="75" x="36.83" y="-2.4257" drill="1.016"/>
+<pad name="76" x="39.37" y="-2.4257" drill="1.016"/>
+<pad name="77" x="41.91" y="-2.4257" drill="1.016"/>
+<pad name="78" x="44.45" y="-2.4257" drill="1.016"/>
+<pad name="79" x="46.99" y="-2.4257" drill="1.016"/>
+<pad name="80" x="49.53" y="-2.4257" drill="1.016"/>
 <wire x1="-54.102" y1="4.6736" x2="-54.102" y2="-4.6736" width="0.127" layer="21"/>
 <wire x1="-54.102" y1="-4.6736" x2="54.102" y2="-4.6736" width="0.127" layer="21"/>
 <wire x1="54.102" y1="-4.6736" x2="54.102" y2="4.6736" width="0.127" layer="21"/>
@@ -20754,7 +20754,6 @@
 <part name="FRAME1" library="auv" deviceset="FRAME_A_L" device=""/>
 <part name="U$1" library="auv" deviceset="TE-2-5530843-0" device=""/>
 <part name="JP1" library="auv" deviceset="PINHD-1X40" device=""/>
-<part name="U$2" library="auv" deviceset="ILLINOISAUV" device=""/>
 </parts>
 <sheets>
 <sheet>
