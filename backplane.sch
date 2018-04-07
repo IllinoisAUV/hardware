@@ -686,6 +686,91 @@
 <pad name="P$1" x="-3.75" y="0" drill="4.5" diameter="6"/>
 <pad name="P$2" x="3.75" y="0" drill="4.5" diameter="6"/>
 </package>
+<package name="DF13-4P-1.25DSA">
+<description>Single Row Straight Pin Header (Through hole)</description>
+<wire x1="-3.325" y1="-2.19" x2="3.325" y2="-2.19" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="1.21" x2="3.325" y2="1.21" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="1.21" x2="-3.325" y2="0" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="0" x2="-3.325" y2="-0.81" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="-0.81" x2="-3.325" y2="-2.19" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="-2.19" x2="3.325" y2="-0.81" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="-0.81" x2="3.325" y2="0" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="0" x2="3.325" y2="1.21" width="0.3048" layer="21"/>
+<wire x1="-2.825" y1="-1.59" x2="2.825" y2="-1.59" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="0.81" x2="-2.825" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="0" x2="-2.825" y2="-0.81" width="0.1" layer="21"/>
+<wire x1="-2.825" y1="-0.81" x2="-2.825" y2="-1.59" width="0.127" layer="21"/>
+<wire x1="2.825" y1="0.81" x2="2.825" y2="0" width="0.127" layer="21"/>
+<wire x1="2.825" y1="0" x2="2.825" y2="-0.81" width="0.1" layer="21"/>
+<wire x1="2.825" y1="-0.81" x2="2.825" y2="-1.59" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="0.81" x2="2.825" y2="0.81" width="0.127" layer="21"/>
+<wire x1="-3.325" y1="0" x2="-2.825" y2="0" width="0.127" layer="21"/>
+<wire x1="2.825" y1="0" x2="3.325" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.325" y1="-0.81" x2="-2.825" y2="-0.81" width="0.127" layer="21"/>
+<wire x1="2.825" y1="-0.81" x2="3.325" y2="-0.81" width="0.127" layer="21"/>
+<pad name="P$1" x="1.875" y="0" drill="0.6" diameter="1.016" shape="square"/>
+<pad name="P$2" x="0.625" y="0" drill="0.6" diameter="1.016"/>
+<pad name="P$3" x="-0.625" y="0" drill="0.6" diameter="1.016"/>
+<pad name="P$4" x="-1.875" y="0" drill="0.6" diameter="1.016"/>
+<text x="-3.125" y="1.875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.125" y="-3.75" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="DF13-4P-1.25DS">
+<description>Single Row Right Angle Pin Header (Through hole)</description>
+<wire x1="-3.325" y1="-4.47" x2="3.325" y2="-4.475" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="0.9" x2="-3.325" y2="-0.98" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="-0.98" x2="-3.325" y2="-4.47" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="-0.98" x2="3.335" y2="-0.98" width="0.127" layer="21"/>
+<wire x1="-3.325" y1="-0.81" x2="-3.325" y2="-0.98" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="-0.98" x2="-3.325" y2="-2.19" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="0.9" x2="3.325" y2="0.9" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="-4.475" x2="3.325" y2="0.9" width="0.3048" layer="21"/>
+<pad name="P$1" x="1.875" y="0" drill="0.6" diameter="1.016" shape="square"/>
+<pad name="P$2" x="0.625" y="0" drill="0.6" diameter="1.016"/>
+<pad name="P$3" x="-0.625" y="0" drill="0.6" diameter="1.016"/>
+<pad name="P$4" x="-1.875" y="0" drill="0.6" diameter="1.016"/>
+<text x="-3.125" y="1.575" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.125" y="-6.255" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="DF13C-4P-1.25V">
+<description>Single Row Straight Pin Header (SMT)</description>
+<wire x1="-4.075" y1="-3.6" x2="4.075" y2="-3.6" width="0.3048" layer="21"/>
+<wire x1="4.075" y1="-3.6" x2="4.075" y2="0" width="0.3048" layer="21"/>
+<wire x1="4.075" y1="0" x2="-4.075" y2="0" width="0.3048" layer="21"/>
+<wire x1="-4.075" y1="0" x2="-4.075" y2="-3.6" width="0.3048" layer="21"/>
+<smd name="M$1" x="-4.325" y="-1.8" dx="2.2" dy="1.6" layer="1" rot="R90"/>
+<smd name="M$0" x="4.325" y="-1.8" dx="2.2" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$1" x="-1.875" y="0.9" dx="0.7" dy="1.8" layer="1"/>
+<smd name="P$2" x="-0.625" y="0.9" dx="0.7" dy="1.8" layer="1"/>
+<smd name="P$3" x="0.625" y="0.9" dx="0.7" dy="1.8" layer="1"/>
+<smd name="P$4" x="1.875" y="0.9" dx="0.7" dy="1.8" layer="1"/>
+<text x="-3.475" y="1.525" size="2.54" layer="21">.</text>
+<rectangle x1="-2.5" y1="-2.475" x2="2.5" y2="-0.1" layer="39"/>
+</package>
+<package name="DF13A-4P-1.25H">
+<description>Single Row Straight Pin Header (SMT)</description>
+<wire x1="-3.65" y1="0.3" x2="3.65" y2="0.3" width="0.3048" layer="21"/>
+<wire x1="4.075" y1="0.9" x2="4.075" y2="4.5" width="0.3048" layer="21"/>
+<wire x1="3.65" y1="5.3" x2="-3.65" y2="5.3" width="0.3048" layer="21"/>
+<wire x1="-4.075" y1="4.5" x2="-4.075" y2="0.9" width="0.3048" layer="21"/>
+<wire x1="-3.65" y1="5.3" x2="-3.65" y2="4.5" width="0.3048" layer="21"/>
+<wire x1="-3.65" y1="4.5" x2="-4.075" y2="4.5" width="0.3048" layer="21"/>
+<wire x1="3.65" y1="5.3" x2="3.65" y2="4.5" width="0.3048" layer="21"/>
+<wire x1="3.65" y1="4.5" x2="4.075" y2="4.5" width="0.3048" layer="21"/>
+<wire x1="-3.65" y1="0.3" x2="-3.65" y2="0.9" width="0.3048" layer="21"/>
+<wire x1="-3.65" y1="0.9" x2="-4.075" y2="0.9" width="0.3048" layer="21"/>
+<wire x1="3.65" y1="0.3" x2="3.65" y2="0.9" width="0.3048" layer="21"/>
+<wire x1="3.65" y1="0.9" x2="4.075" y2="0.9" width="0.3048" layer="21"/>
+<wire x1="-3.65" y1="4.5" x2="-3.65" y2="0.9" width="0.127" layer="21"/>
+<wire x1="3.65" y1="4.5" x2="3.65" y2="0.9" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.875" y="-0.9" dx="0.7" dy="1.8" layer="1"/>
+<smd name="P$2" x="-0.625" y="-0.9" dx="0.7" dy="1.8" layer="1"/>
+<smd name="M$0" x="-4.225" y="2.4" dx="1.6" dy="2.2" layer="1"/>
+<smd name="M$1" x="4.225" y="2.4" dx="1.6" dy="2.2" layer="1"/>
+<smd name="P$3" x="0.625" y="-0.9" dx="0.7" dy="1.8" layer="1"/>
+<smd name="P$4" x="1.875" y="-0.9" dx="0.7" dy="1.8" layer="1"/>
+<text x="-3.45" y="-1.875" size="2.54" layer="21">.</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_A_L">
@@ -958,6 +1043,26 @@
 <text x="-1.905" y="-6.6675" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CON-1X4P">
+<wire x1="1.905" y1="3.81" x2="-1.905" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-6.35" x2="-1.905" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-6.35" x2="1.905" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.81" x2="1.905" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-0.635" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="-5.08" x2="0.635" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-1.905" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.905" y="-9.2075" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1332,6 +1437,59 @@ SMT- SWCH-08247</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="DF13-4P-1.25">
+<description>DF13-4P
+1.25mm Pitch Miniature Crimping Connector.</description>
+<gates>
+<gate name="G$1" symbol="CON-1X4P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DSA" package="DF13-4P-1.25DSA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DS" package="DF13-4P-1.25DS">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="DF13C-4P-1.25V">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="DF13A-4P-1.25H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1368,6 +1526,8 @@ SMT- SWCH-08247</description>
 <part name="POWER" library="auv" deviceset="TE-5-5530843-0" device=""/>
 <part name="U$2" library="auv" deviceset="XT-60" device=""/>
 <part name="GND8" library="auv" deviceset="GND" device=""/>
+<part name="U$4" library="auv" deviceset="DF13-4P-1.25" device="DSA"/>
+<part name="GND9" library="auv" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1533,6 +1693,8 @@ SMT- SWCH-08247</description>
 <instance part="PIXHAWK" gate="G$1" x="152.4" y="107.95"/>
 <instance part="PWM" gate="A" x="71.12" y="111.76"/>
 <instance part="GND6" gate="1" x="58.42" y="91.44"/>
+<instance part="U$4" gate="G$1" x="73.66" y="172.72"/>
+<instance part="GND9" gate="1" x="60.96" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -1579,6 +1741,34 @@ SMT- SWCH-08247</description>
 <wire x1="68.58" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <junction x="58.42" y="99.06"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="4"/>
+<wire x1="68.58" y1="167.64" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="60.96" y1="167.64" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="175.26" x2="60.96" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="175.26" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
+<label x="60.96" y="180.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="PIXHAWK_SCL" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
+<label x="58.42" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PIXHAWK_SDA" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="3"/>
+<wire x1="68.58" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
+<label x="58.42" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

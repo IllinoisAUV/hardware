@@ -554,6 +554,35 @@
 <pad name="P$1" x="-3.75" y="0" drill="4.5" diameter="6"/>
 <pad name="P$2" x="3.75" y="0" drill="4.5" diameter="6"/>
 </package>
+<package name="DF13-4P-1.25DSA">
+<description>Single Row Straight Pin Header (Through hole)</description>
+<wire x1="-3.325" y1="-2.19" x2="3.325" y2="-2.19" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="1.21" x2="3.325" y2="1.21" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="1.21" x2="-3.325" y2="0" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="0" x2="-3.325" y2="-0.81" width="0.3048" layer="21"/>
+<wire x1="-3.325" y1="-0.81" x2="-3.325" y2="-2.19" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="-2.19" x2="3.325" y2="-0.81" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="-0.81" x2="3.325" y2="0" width="0.3048" layer="21"/>
+<wire x1="3.325" y1="0" x2="3.325" y2="1.21" width="0.3048" layer="21"/>
+<wire x1="-2.825" y1="-1.59" x2="2.825" y2="-1.59" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="0.81" x2="-2.825" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="0" x2="-2.825" y2="-0.81" width="0.1" layer="21"/>
+<wire x1="-2.825" y1="-0.81" x2="-2.825" y2="-1.59" width="0.127" layer="21"/>
+<wire x1="2.825" y1="0.81" x2="2.825" y2="0" width="0.127" layer="21"/>
+<wire x1="2.825" y1="0" x2="2.825" y2="-0.81" width="0.1" layer="21"/>
+<wire x1="2.825" y1="-0.81" x2="2.825" y2="-1.59" width="0.127" layer="21"/>
+<wire x1="-2.825" y1="0.81" x2="2.825" y2="0.81" width="0.127" layer="21"/>
+<wire x1="-3.325" y1="0" x2="-2.825" y2="0" width="0.127" layer="21"/>
+<wire x1="2.825" y1="0" x2="3.325" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.325" y1="-0.81" x2="-2.825" y2="-0.81" width="0.127" layer="21"/>
+<wire x1="2.825" y1="-0.81" x2="3.325" y2="-0.81" width="0.127" layer="21"/>
+<pad name="P$1" x="1.875" y="0" drill="0.6" diameter="1.016" shape="square"/>
+<pad name="P$2" x="0.625" y="0" drill="0.6" diameter="1.016"/>
+<pad name="P$3" x="-0.625" y="0" drill="0.6" diameter="1.016"/>
+<pad name="P$4" x="-1.875" y="0" drill="0.6" diameter="1.016"/>
+<text x="-3.125" y="1.875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.125" y="-3.75" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -764,6 +793,7 @@ design rules under a new name.</description>
 <element name="U$1" library="auv" package="AHRS8P" value="AHRS8P" x="66.294" y="76.962" rot="R90"/>
 <element name="POWER" library="auv" package="TE-5-5530843-0" value="TE-5-5530843-0" x="30.988" y="14.986"/>
 <element name="U$2" library="auv" package="XT-60" value="XT-60" x="8.382" y="19.304" rot="R270"/>
+<element name="U$4" library="auv" package="DF13-4P-1.25DSA" value="DF13-4P-1.25DSA" x="-14.478" y="-19.558"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -801,6 +831,8 @@ design rules under a new name.</description>
 <contactref element="PWM" pad="19"/>
 <contactref element="U$1" pad="GND"/>
 <contactref element="U$2" pad="P$2"/>
+<contactref element="U$4" pad="P$4"/>
+<wire x1="8.382" y1="15.554" x2="-16.353" y2="-19.558" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U$3" pad="VIN"/>
@@ -866,6 +898,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="AHRS8_TX">
 <contactref element="U$1" pad="TX"/>
+</signal>
+<signal name="5V">
+<contactref element="U$4" pad="P$1"/>
+</signal>
+<signal name="PIXHAWK_SCL">
+<contactref element="U$4" pad="P$2"/>
+</signal>
+<signal name="PIXHAWK_SDA">
+<contactref element="U$4" pad="P$3"/>
 </signal>
 </signals>
 </board>
