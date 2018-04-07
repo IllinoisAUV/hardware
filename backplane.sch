@@ -676,6 +676,16 @@
 <text x="11.43" y="-6.35" size="1.27" layer="21">20</text>
 <text x="-13.97" y="5.08" size="1.27" layer="21">1</text>
 </package>
+<package name="XT-60">
+<wire x1="7.86765" y1="4.064" x2="-5.588" y2="4.064" width="0.127" layer="21"/>
+<wire x1="7.86765" y1="-4.064" x2="7.86765" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="1.778" x2="-7.874" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-5.588" y1="-4.064" x2="7.874" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="1.778" x2="-5.588" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="-1.778" x2="-5.588" y2="-4.064" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.75" y="0" drill="4.5" diameter="6"/>
+<pad name="P$2" x="3.75" y="0" drill="4.5" diameter="6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_A_L">
@@ -934,6 +944,20 @@
 <pin name="17" x="-10.16" y="-8.89" visible="pad" length="middle"/>
 <pin name="19" x="-10.16" y="-11.43" visible="pad" length="middle"/>
 <text x="-6.35" y="13.97" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="CON-1X2P">
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-3.81" x2="-1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-3.81" x2="1.905" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-1.905" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.905" y="-6.6675" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1292,6 +1316,22 @@ SMT- SWCH-08247</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="XT-60">
+<gates>
+<gate name="G$1" symbol="CON-1X2P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XT-60">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1326,6 +1366,8 @@ SMT- SWCH-08247</description>
 <part name="P+2" library="auv" deviceset="+5V" device=""/>
 <part name="GND7" library="auv" deviceset="GND" device=""/>
 <part name="POWER" library="auv" deviceset="TE-5-5530843-0" device=""/>
+<part name="U$2" library="auv" deviceset="XT-60" device=""/>
+<part name="GND8" library="auv" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1457,10 +1499,28 @@ SMT- SWCH-08247</description>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
 <instance part="POWER" gate="G$1" x="132.08" y="109.22"/>
+<instance part="U$2" gate="G$1" x="93.98" y="167.64"/>
+<instance part="GND8" gate="1" x="83.82" y="157.48"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="167.64" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
+<label x="83.82" y="177.8" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="165.1" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

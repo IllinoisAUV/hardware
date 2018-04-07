@@ -544,6 +544,16 @@
 <text x="11.43" y="-6.35" size="1.27" layer="21">20</text>
 <text x="-13.97" y="5.08" size="1.27" layer="21">1</text>
 </package>
+<package name="XT-60">
+<wire x1="7.86765" y1="4.064" x2="-5.588" y2="4.064" width="0.127" layer="21"/>
+<wire x1="7.86765" y1="-4.064" x2="7.86765" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="1.778" x2="-7.874" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-5.588" y1="-4.064" x2="7.874" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="1.778" x2="-5.588" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="-1.778" x2="-5.588" y2="-4.064" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.75" y="0" drill="4.5" diameter="6"/>
+<pad name="P$2" x="3.75" y="0" drill="4.5" diameter="6"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -753,6 +763,7 @@ design rules under a new name.</description>
 <element name="PWM" library="auv" package="2X10" value="" x="195.58" y="50.8" rot="R90"/>
 <element name="U$1" library="auv" package="AHRS8P" value="AHRS8P" x="66.294" y="76.962" rot="R90"/>
 <element name="POWER" library="auv" package="TE-5-5530843-0" value="TE-5-5530843-0" x="30.988" y="14.986"/>
+<element name="U$2" library="auv" package="XT-60" value="XT-60" x="8.382" y="19.304" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -789,6 +800,7 @@ design rules under a new name.</description>
 <contactref element="PWM" pad="17"/>
 <contactref element="PWM" pad="19"/>
 <contactref element="U$1" pad="GND"/>
+<contactref element="U$2" pad="P$2"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U$3" pad="VIN"/>
@@ -798,6 +810,7 @@ design rules under a new name.</description>
 <vertex x="203.2" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
+<contactref element="U$2" pad="P$1"/>
 </signal>
 <signal name="PIXHAWK_TELEM2_TX">
 <contactref element="U$3" pad="UART1_RX"/>
