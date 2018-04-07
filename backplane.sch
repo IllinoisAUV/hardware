@@ -2067,10 +2067,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX3233E-MAX3235E.pdf</description>
 <part name="GND10" library="auv" deviceset="GND" device=""/>
 <part name="P+3" library="auv" deviceset="+5V" device=""/>
 <part name="MODEM" library="auv" deviceset="PINHD-1X8" device=""/>
-<part name="IC1" library="auv" deviceset="MAX3233E" device="WP" technology="C"/>
+<part name="IC1" library="auv" deviceset="MAX3233E" device="PP" technology="C" value="MAX3233ECPP"/>
 <part name="+3V1" library="auv" deviceset="+3V3" device=""/>
 <part name="GND11" library="auv" deviceset="GND" device=""/>
-<part name="C1" library="auv" deviceset="C-EU" device="C0603"/>
+<part name="C1" library="auv" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND12" library="auv" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -2186,13 +2186,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX3233E-MAX3235E.pdf</description>
 <wire x1="99.06" y1="127" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPARTON_RX" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="UART0_TX"/>
-<wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<label x="127" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="PWR" class="0">
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -2203,13 +2196,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX3233E-MAX3235E.pdf</description>
 <junction x="88.9" y="99.06"/>
 </segment>
 </net>
-<net name="SPARTON_TX" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="UART0_RX"/>
-<wire x1="175.26" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="182.88" y="144.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="PIXHAWK_GPIO3" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="GPIO3"/>
@@ -2217,32 +2203,23 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX3233E-MAX3235E.pdf</description>
 <label x="182.88" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MODEM_RS232_TX" class="0">
+<net name="MODEM_RS232_RX" class="0">
 <segment>
 <pinref part="IC1" gate="Q" pin="T1OUT"/>
 <wire x1="101.6" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <label x="109.22" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MODEM_RS232_RX" class="0">
+<net name="MODEM_RX" class="0">
 <segment>
-<pinref part="IC1" gate="Q" pin="R1IN"/>
-<wire x1="101.6" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
-<label x="109.22" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="UART0_TX"/>
+<wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<label x="127" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="MODEM_TX" class="0">
 <segment>
 <pinref part="IC1" gate="Q" pin="T1IN"/>
 <wire x1="76.2" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <label x="68.58" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MODEM_RX" class="0">
-<segment>
-<pinref part="IC1" gate="Q" pin="R1OUT"/>
-<wire x1="76.2" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
-<label x="68.58" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -2253,6 +2230,25 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX3233E-MAX3235E.pdf</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <junction x="48.26" y="83.82"/>
+</segment>
+</net>
+<net name="MODEM_RS232_TX" class="0">
+<segment>
+<pinref part="IC1" gate="Q" pin="R1IN"/>
+<wire x1="101.6" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="109.22" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MODEM_TX" class="0">
+<segment>
+<pinref part="IC1" gate="Q" pin="R1OUT"/>
+<wire x1="76.2" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="UART0_RX"/>
+<wire x1="175.26" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
+<label x="182.88" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
