@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -286,26 +286,26 @@
 <pad name="GND3" x="38.735" y="-2.1082" drill="1.016"/>
 <pad name="GND2" x="38.735" y="-4.6482" drill="1.016"/>
 <pad name="GND1" x="38.735" y="-7.1882" drill="1.016"/>
-<text x="43.18" y="14.986" size="1.27" layer="21" font="vector">3V3</text>
-<text x="37.084" y="16.256" size="1.27" layer="21" font="vector" rot="R180">5V</text>
-<text x="37.084" y="13.716" size="1.27" layer="21" font="vector" rot="R180">UART0_RX</text>
-<text x="43.18" y="12.446" size="1.27" layer="21" font="vector">UART0_TX</text>
-<text x="43.18" y="9.906" size="1.27" layer="21" font="vector">UART1_TX</text>
-<text x="37.084" y="11.176" size="1.27" layer="21" font="vector" rot="R180">UART1_RX</text>
-<text x="43.18" y="7.366" size="1.27" layer="21" font="vector">GPIO0</text>
-<text x="43.18" y="4.826" size="1.27" layer="21" font="vector">GPIO2</text>
-<text x="37.084" y="8.636" size="1.27" layer="21" font="vector" rot="R180">GPIO1</text>
-<text x="37.084" y="6.096" size="1.27" layer="21" font="vector" rot="R180">GPIO3</text>
-<text x="43.18" y="2.286" size="1.27" layer="21" font="vector">I2C_SCL</text>
-<text x="37.465" y="0.889" size="1.27" layer="21" font="vector" rot="R180">RTC_BAT</text>
-<text x="37.084" y="3.556" size="1.27" layer="21" font="vector" rot="R180">I2C_SDA</text>
-<text x="42.926" y="-0.381" size="1.27" layer="21" font="vector">RECOVERY</text>
-<text x="42.926" y="-2.921" size="1.27" layer="21" font="vector">RESET</text>
-<text x="42.926" y="-5.461" size="1.27" layer="21" font="vector">POWER</text>
-<text x="37.465" y="-1.651" size="1.27" layer="21" font="vector" rot="R180">GND</text>
-<text x="37.465" y="-4.191" size="1.27" layer="21" font="vector" rot="R180">GND</text>
-<text x="43.18" y="-7.62" size="1.27" layer="21" font="vector">GND</text>
-<text x="37.465" y="-6.604" size="1.27" layer="21" font="vector" rot="R180">GND</text>
+<text x="43.18" y="14.986" size="1.016" layer="21" font="vector">3V3</text>
+<text x="37.084" y="16.256" size="1.016" layer="21" font="vector" rot="R180">5V</text>
+<text x="37.084" y="13.716" size="1.016" layer="21" font="vector" rot="R180">UART0_RX</text>
+<text x="43.18" y="12.446" size="1.016" layer="21" font="vector">UART0_TX</text>
+<text x="43.18" y="9.906" size="1.016" layer="21" font="vector">UART1_TX</text>
+<text x="37.084" y="11.176" size="1.016" layer="21" font="vector" rot="R180">UART1_RX</text>
+<text x="43.18" y="7.366" size="1.016" layer="21" font="vector">GPIO0</text>
+<text x="43.18" y="4.826" size="1.016" layer="21" font="vector">GPIO2</text>
+<text x="37.084" y="8.636" size="1.016" layer="21" font="vector" rot="R180">GPIO1</text>
+<text x="37.084" y="6.096" size="1.016" layer="21" font="vector" rot="R180">GPIO3</text>
+<text x="43.18" y="2.286" size="1.016" layer="21" font="vector">I2C_SCL</text>
+<text x="37.465" y="0.889" size="1.016" layer="21" font="vector" rot="R180">RTC_BAT</text>
+<text x="37.084" y="3.556" size="1.016" layer="21" font="vector" rot="R180">I2C_SDA</text>
+<text x="42.926" y="-0.381" size="1.016" layer="21" font="vector">RECOVERY</text>
+<text x="42.926" y="-2.921" size="1.016" layer="21" font="vector">RESET</text>
+<text x="42.926" y="-5.461" size="1.016" layer="21" font="vector">POWER</text>
+<text x="37.465" y="-1.651" size="1.016" layer="21" font="vector" rot="R180">GND</text>
+<text x="37.465" y="-4.191" size="1.016" layer="21" font="vector" rot="R180">GND</text>
+<text x="43.18" y="-7.62" size="1.016" layer="21" font="vector">GND</text>
+<text x="37.465" y="-6.604" size="1.016" layer="21" font="vector" rot="R180">GND</text>
 <wire x1="34.29" y1="27.686" x2="17.272" y2="27.686" width="0.127" layer="21"/>
 <wire x1="17.272" y1="27.686" x2="17.272" y2="-5.334" width="0.127" layer="21"/>
 <wire x1="17.272" y1="-5.334" x2="34.29" y2="-5.334" width="0.127" layer="21"/>
@@ -515,6 +515,35 @@
 <pad name="TX" x="1.27" y="-29.21" drill="1.016" shape="square" rot="R270"/>
 <pad name="GND" x="-3.81" y="-29.21" drill="1.016" shape="square" rot="R270"/>
 </package>
+<package name="TE-5-5530843-0">
+<pad name="1" x="-11.43" y="2.4257" drill="1.016"/>
+<pad name="3" x="-8.89" y="2.4257" drill="1.016"/>
+<pad name="5" x="-6.35" y="2.4257" drill="1.016"/>
+<pad name="7" x="-3.81" y="2.4257" drill="1.016"/>
+<pad name="9" x="-1.27" y="2.4257" drill="1.016"/>
+<pad name="11" x="1.27" y="2.4257" drill="1.016"/>
+<pad name="13" x="3.81" y="2.4257" drill="1.016"/>
+<pad name="15" x="6.35" y="2.4257" drill="1.016"/>
+<pad name="17" x="8.89" y="2.4257" drill="1.016"/>
+<pad name="19" x="11.43" y="2.4257" drill="1.016"/>
+<pad name="2" x="-11.43" y="-2.4257" drill="1.016"/>
+<pad name="4" x="-8.89" y="-2.4257" drill="1.016"/>
+<pad name="6" x="-6.35" y="-2.4257" drill="1.016"/>
+<pad name="8" x="-3.81" y="-2.4257" drill="1.016"/>
+<pad name="10" x="-1.27" y="-2.4257" drill="1.016"/>
+<pad name="12" x="1.27" y="-2.4257" drill="1.016"/>
+<pad name="14" x="3.81" y="-2.4257" drill="1.016"/>
+<pad name="16" x="6.35" y="-2.4257" drill="1.016"/>
+<pad name="18" x="8.89" y="-2.4257" drill="1.016"/>
+<pad name="20" x="11.43" y="-2.4257" drill="1.016"/>
+<wire x1="-14.732" y1="4.6736" x2="-14.732" y2="-4.6736" width="0.127" layer="21"/>
+<wire x1="-14.732" y1="-4.6736" x2="14.732" y2="-4.6736" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-4.6736" x2="14.732" y2="4.6736" width="0.127" layer="21"/>
+<wire x1="14.732" y1="4.6736" x2="-14.732" y2="4.6736" width="0.127" layer="21"/>
+<text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
+<text x="11.43" y="-6.35" size="1.27" layer="21">20</text>
+<text x="-13.97" y="5.08" size="1.27" layer="21">1</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -707,22 +736,23 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="POWER" library="auv" package="TE-2-5530843-0" value="TE-2-5530843-0" x="80.01" y="17.78"/>
-<element name="PIXHAWK" library="auv" package="TE-2-5530843-0" value="TE-2-5530843-0" x="80.01" y="30.734"/>
+<element name="PIXHAWK" library="auv" package="TE-2-5530843-0" value="TE-2-5530843-0" x="70.612" y="30.48"/>
 <element name="U$3" library="auv" package="ORBITTY_CARRIER" value="ORBITTY_CARRIER" x="163.83" y="50.8" rot="R90"/>
 <element name="REC" library="auv" package="TACTILE-PTH" value="" x="195.58" y="95.25" rot="R270"/>
 <element name="RST" library="auv" package="TACTILE-PTH" value="" x="195.58" y="74.93" rot="R270"/>
 <element name="PWR" library="auv" package="TACTILE-PTH" value="" x="195.58" y="85.09" rot="R270"/>
-<element name="HUB_PWR" library="auv" package="GCT_USB3150-XX-XXX-X_REVA" value="USB3150-30-130-A" x="99.314" y="47.752">
+<element name="HUB_PWR" library="auv" package="GCT_USB3150-XX-XXX-X_REVA" value="USB3150-30-130-A" x="99.314" y="47.752" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="99.314" y="47.752" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Vertical Through Hole Type B Micro USB Plug w/ Shell Stakes and Pegs " x="99.314" y="47.752" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Global Connector Technology" x="99.314" y="47.752" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="USB3150-30-130-A" x="99.314" y="47.752" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="95.0486" y="50.01016875" size="2.03936875" layer="25" ratio="13" rot="SR0"/>
 <attribute name="PACKAGE" value="None" x="99.314" y="47.752" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="0.70 USD" x="99.314" y="47.752" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PWM" library="auv" package="2X10" value="" x="195.58" y="50.8" rot="R90"/>
 <element name="U$1" library="auv" package="AHRS8P" value="AHRS8P" x="66.294" y="76.962" rot="R90"/>
+<element name="POWER" library="auv" package="TE-5-5530843-0" value="TE-5-5530843-0" x="30.988" y="14.986"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -743,10 +773,10 @@ design rules under a new name.</description>
 <contactref element="HUB_PWR" pad="10"/>
 <contactref element="HUB_PWR" pad="6"/>
 <polygon width="0.1524" layer="16">
-<vertex x="209.55" y="101.6"/>
+<vertex x="203.2" y="101.6"/>
 <vertex x="0" y="101.6"/>
-<vertex x="0" y="-3.81"/>
-<vertex x="209.55" y="-3.81"/>
+<vertex x="0" y="0"/>
+<vertex x="203.2" y="0"/>
 </polygon>
 <contactref element="PWM" pad="1"/>
 <contactref element="PWM" pad="3"/>
@@ -764,9 +794,9 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="VIN"/>
 <polygon width="0.1524" layer="1">
 <vertex x="0" y="101.6"/>
-<vertex x="209.55" y="101.6"/>
-<vertex x="209.55" y="-3.81"/>
-<vertex x="0" y="-3.81"/>
+<vertex x="203.2" y="101.6"/>
+<vertex x="203.2" y="0"/>
+<vertex x="0" y="0"/>
 </polygon>
 </signal>
 <signal name="PIXHAWK_TELEM2_TX">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -280,26 +280,26 @@
 <pad name="GND3" x="38.735" y="-2.1082" drill="1.016"/>
 <pad name="GND2" x="38.735" y="-4.6482" drill="1.016"/>
 <pad name="GND1" x="38.735" y="-7.1882" drill="1.016"/>
-<text x="43.18" y="14.986" size="1.27" layer="21" font="vector">3V3</text>
-<text x="37.084" y="16.256" size="1.27" layer="21" font="vector" rot="R180">5V</text>
-<text x="37.084" y="13.716" size="1.27" layer="21" font="vector" rot="R180">UART0_RX</text>
-<text x="43.18" y="12.446" size="1.27" layer="21" font="vector">UART0_TX</text>
-<text x="43.18" y="9.906" size="1.27" layer="21" font="vector">UART1_TX</text>
-<text x="37.084" y="11.176" size="1.27" layer="21" font="vector" rot="R180">UART1_RX</text>
-<text x="43.18" y="7.366" size="1.27" layer="21" font="vector">GPIO0</text>
-<text x="43.18" y="4.826" size="1.27" layer="21" font="vector">GPIO2</text>
-<text x="37.084" y="8.636" size="1.27" layer="21" font="vector" rot="R180">GPIO1</text>
-<text x="37.084" y="6.096" size="1.27" layer="21" font="vector" rot="R180">GPIO3</text>
-<text x="43.18" y="2.286" size="1.27" layer="21" font="vector">I2C_SCL</text>
-<text x="37.465" y="0.889" size="1.27" layer="21" font="vector" rot="R180">RTC_BAT</text>
-<text x="37.084" y="3.556" size="1.27" layer="21" font="vector" rot="R180">I2C_SDA</text>
-<text x="42.926" y="-0.381" size="1.27" layer="21" font="vector">RECOVERY</text>
-<text x="42.926" y="-2.921" size="1.27" layer="21" font="vector">RESET</text>
-<text x="42.926" y="-5.461" size="1.27" layer="21" font="vector">POWER</text>
-<text x="37.465" y="-1.651" size="1.27" layer="21" font="vector" rot="R180">GND</text>
-<text x="37.465" y="-4.191" size="1.27" layer="21" font="vector" rot="R180">GND</text>
-<text x="43.18" y="-7.62" size="1.27" layer="21" font="vector">GND</text>
-<text x="37.465" y="-6.604" size="1.27" layer="21" font="vector" rot="R180">GND</text>
+<text x="43.18" y="14.986" size="1.016" layer="21" font="vector">3V3</text>
+<text x="37.084" y="16.256" size="1.016" layer="21" font="vector" rot="R180">5V</text>
+<text x="37.084" y="13.716" size="1.016" layer="21" font="vector" rot="R180">UART0_RX</text>
+<text x="43.18" y="12.446" size="1.016" layer="21" font="vector">UART0_TX</text>
+<text x="43.18" y="9.906" size="1.016" layer="21" font="vector">UART1_TX</text>
+<text x="37.084" y="11.176" size="1.016" layer="21" font="vector" rot="R180">UART1_RX</text>
+<text x="43.18" y="7.366" size="1.016" layer="21" font="vector">GPIO0</text>
+<text x="43.18" y="4.826" size="1.016" layer="21" font="vector">GPIO2</text>
+<text x="37.084" y="8.636" size="1.016" layer="21" font="vector" rot="R180">GPIO1</text>
+<text x="37.084" y="6.096" size="1.016" layer="21" font="vector" rot="R180">GPIO3</text>
+<text x="43.18" y="2.286" size="1.016" layer="21" font="vector">I2C_SCL</text>
+<text x="37.465" y="0.889" size="1.016" layer="21" font="vector" rot="R180">RTC_BAT</text>
+<text x="37.084" y="3.556" size="1.016" layer="21" font="vector" rot="R180">I2C_SDA</text>
+<text x="42.926" y="-0.381" size="1.016" layer="21" font="vector">RECOVERY</text>
+<text x="42.926" y="-2.921" size="1.016" layer="21" font="vector">RESET</text>
+<text x="42.926" y="-5.461" size="1.016" layer="21" font="vector">POWER</text>
+<text x="37.465" y="-1.651" size="1.016" layer="21" font="vector" rot="R180">GND</text>
+<text x="37.465" y="-4.191" size="1.016" layer="21" font="vector" rot="R180">GND</text>
+<text x="43.18" y="-7.62" size="1.016" layer="21" font="vector">GND</text>
+<text x="37.465" y="-6.604" size="1.016" layer="21" font="vector" rot="R180">GND</text>
 <wire x1="34.29" y1="27.686" x2="17.272" y2="27.686" width="0.127" layer="21"/>
 <wire x1="17.272" y1="27.686" x2="17.272" y2="-5.334" width="0.127" layer="21"/>
 <wire x1="17.272" y1="-5.334" x2="34.29" y2="-5.334" width="0.127" layer="21"/>
@@ -647,6 +647,35 @@
 <pad name="TX" x="1.27" y="-29.21" drill="1.016" shape="square" rot="R270"/>
 <pad name="GND" x="-3.81" y="-29.21" drill="1.016" shape="square" rot="R270"/>
 </package>
+<package name="TE-5-5530843-0">
+<pad name="1" x="-11.43" y="2.4257" drill="1.016"/>
+<pad name="3" x="-8.89" y="2.4257" drill="1.016"/>
+<pad name="5" x="-6.35" y="2.4257" drill="1.016"/>
+<pad name="7" x="-3.81" y="2.4257" drill="1.016"/>
+<pad name="9" x="-1.27" y="2.4257" drill="1.016"/>
+<pad name="11" x="1.27" y="2.4257" drill="1.016"/>
+<pad name="13" x="3.81" y="2.4257" drill="1.016"/>
+<pad name="15" x="6.35" y="2.4257" drill="1.016"/>
+<pad name="17" x="8.89" y="2.4257" drill="1.016"/>
+<pad name="19" x="11.43" y="2.4257" drill="1.016"/>
+<pad name="2" x="-11.43" y="-2.4257" drill="1.016"/>
+<pad name="4" x="-8.89" y="-2.4257" drill="1.016"/>
+<pad name="6" x="-6.35" y="-2.4257" drill="1.016"/>
+<pad name="8" x="-3.81" y="-2.4257" drill="1.016"/>
+<pad name="10" x="-1.27" y="-2.4257" drill="1.016"/>
+<pad name="12" x="1.27" y="-2.4257" drill="1.016"/>
+<pad name="14" x="3.81" y="-2.4257" drill="1.016"/>
+<pad name="16" x="6.35" y="-2.4257" drill="1.016"/>
+<pad name="18" x="8.89" y="-2.4257" drill="1.016"/>
+<pad name="20" x="11.43" y="-2.4257" drill="1.016"/>
+<wire x1="-14.732" y1="4.6736" x2="-14.732" y2="-4.6736" width="0.127" layer="21"/>
+<wire x1="-14.732" y1="-4.6736" x2="14.732" y2="-4.6736" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-4.6736" x2="14.732" y2="4.6736" width="0.127" layer="21"/>
+<wire x1="14.732" y1="4.6736" x2="-14.732" y2="4.6736" width="0.127" layer="21"/>
+<text x="-5.08" y="5.08" size="1.27" layer="21">&gt;NAME</text>
+<text x="11.43" y="-6.35" size="1.27" layer="21">20</text>
+<text x="-13.97" y="5.08" size="1.27" layer="21">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_A_L">
@@ -878,6 +907,33 @@
 <pin name="VIN" x="15.24" y="7.62" length="middle" rot="R180"/>
 <text x="-10.16" y="-15.24" size="1.27" layer="94">AHRS8P</text>
 <text x="-10.16" y="12.7" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="TE-5-5530843-0">
+<wire x1="-6.35" y1="13.97" x2="6.35" y2="13.97" width="0.254" layer="94"/>
+<wire x1="6.35" y1="13.97" x2="6.35" y2="-13.97" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-13.97" x2="-6.35" y2="-13.97" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-13.97" x2="-6.35" y2="13.97" width="0.254" layer="94"/>
+<pin name="2" x="10.16" y="11.43" visible="pad" length="middle" rot="R180"/>
+<pin name="4" x="10.16" y="8.89" visible="pad" length="middle" rot="R180"/>
+<pin name="6" x="10.16" y="6.35" visible="pad" length="middle" rot="R180"/>
+<pin name="8" x="10.16" y="3.81" visible="pad" length="middle" rot="R180"/>
+<pin name="10" x="10.16" y="1.27" visible="pad" length="middle" rot="R180"/>
+<pin name="12" x="10.16" y="-1.27" visible="pad" length="middle" rot="R180"/>
+<pin name="14" x="10.16" y="-3.81" visible="pad" length="middle" rot="R180"/>
+<pin name="16" x="10.16" y="-6.35" visible="pad" length="middle" rot="R180"/>
+<pin name="18" x="10.16" y="-8.89" visible="pad" length="middle" rot="R180"/>
+<pin name="20" x="10.16" y="-11.43" visible="pad" length="middle" rot="R180"/>
+<pin name="1" x="-10.16" y="11.43" visible="pad" length="middle"/>
+<pin name="3" x="-10.16" y="8.89" visible="pad" length="middle"/>
+<pin name="5" x="-10.16" y="6.35" visible="pad" length="middle"/>
+<pin name="7" x="-10.16" y="3.81" visible="pad" length="middle"/>
+<pin name="9" x="-10.16" y="1.27" visible="pad" length="middle"/>
+<pin name="11" x="-10.16" y="-1.27" visible="pad" length="middle"/>
+<pin name="13" x="-10.16" y="-3.81" visible="pad" length="middle"/>
+<pin name="15" x="-10.16" y="-6.35" visible="pad" length="middle"/>
+<pin name="17" x="-10.16" y="-8.89" visible="pad" length="middle"/>
+<pin name="19" x="-10.16" y="-11.43" visible="pad" length="middle"/>
+<text x="-6.35" y="13.97" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1202,6 +1258,40 @@ SMT- SWCH-08247</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TE-5-5530843-0">
+<gates>
+<gate name="G$1" symbol="TE-5-5530843-0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE-5-5530843-0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1217,7 +1307,6 @@ SMT- SWCH-08247</description>
 <part name="FRAME1" library="auv" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME2" library="auv" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="auv" deviceset="FRAME_A_L" device=""/>
-<part name="POWER" library="auv" deviceset="TE-2-5530843-0" device=""/>
 <part name="PIXHAWK" library="auv" deviceset="TE-2-5530843-0" device=""/>
 <part name="FRAME4" library="auv" deviceset="FRAME_A_L" device=""/>
 <part name="GND1" library="auv" deviceset="GND" device=""/>
@@ -1236,6 +1325,7 @@ SMT- SWCH-08247</description>
 <part name="U$1" library="auv" deviceset="AHRS8P" device=""/>
 <part name="P+2" library="auv" deviceset="+5V" device=""/>
 <part name="GND7" library="auv" deviceset="GND" device=""/>
+<part name="POWER" library="auv" deviceset="TE-5-5530843-0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1366,7 +1456,7 @@ SMT- SWCH-08247</description>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
-<instance part="POWER" gate="G$1" x="152.4" y="107.95"/>
+<instance part="POWER" gate="G$1" x="132.08" y="109.22"/>
 </instances>
 <busses>
 </busses>
