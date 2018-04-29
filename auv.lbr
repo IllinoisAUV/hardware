@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21774,10 +21774,37 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="5.08" y1="38.1" x2="5.08" y2="-38.1" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-38.1" x2="-5.08" y2="-38.1" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-38.1" x2="-5.08" y2="38.1" width="0.127" layer="21"/>
-<pad name="PWM_VIN" x="0" y="-39.37" drill="0.6"/>
-<pad name="PWM_SIG" x="-2.54" y="-39.37" drill="0.6"/>
-<pad name="PWM_GND" x="2.54" y="-39.37" drill="0.6"/>
 <text x="6.35" y="-38.1" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<wire x1="-3.175" y1="-33.02" x2="-1.905" y2="-33.02" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-33.02" x2="-1.27" y2="-33.655" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-33.655" x2="-1.27" y2="-34.925" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-34.925" x2="-1.905" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-33.655" x2="-0.635" y2="-33.02" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-33.02" x2="0.635" y2="-33.02" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-33.02" x2="1.27" y2="-33.655" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-33.655" x2="1.27" y2="-34.925" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-34.925" x2="0.635" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-35.56" x2="-0.635" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-35.56" x2="-1.27" y2="-34.925" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-33.655" x2="-3.81" y2="-34.925" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-33.02" x2="-3.81" y2="-33.655" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-34.925" x2="-3.175" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-35.56" x2="-3.175" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-33.655" x2="1.905" y2="-33.02" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-33.02" x2="3.175" y2="-33.02" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-33.02" x2="3.81" y2="-33.655" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-33.655" x2="3.81" y2="-34.925" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-34.925" x2="3.175" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-35.56" x2="1.905" y2="-35.56" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-35.56" x2="1.27" y2="-34.925" width="0.1524" layer="21"/>
+<pad name="PWM_GND" x="-2.54" y="-34.29" drill="1.016" shape="long" rot="R90"/>
+<pad name="PWM_VIN" x="0" y="-34.29" drill="1.016" shape="long" rot="R90"/>
+<pad name="PWM_SIG" x="2.54" y="-34.29" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="-32.4612" size="1.27" layer="25" ratio="10"></text>
+<text x="-3.81" y="-37.465" size="1.27" layer="27"></text>
+<rectangle x1="-0.254" y1="-34.544" x2="0.254" y2="-34.036" layer="51"/>
+<rectangle x1="-2.794" y1="-34.544" x2="-2.286" y2="-34.036" layer="51"/>
+<rectangle x1="2.286" y1="-34.544" x2="2.794" y2="-34.036" layer="51"/>
 </package>
 <package name="1X03">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
