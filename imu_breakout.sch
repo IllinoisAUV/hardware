@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -162,26 +162,26 @@
 <packages>
 <package name="ST4-10-1.00-L-D-P-TR">
 <description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
-<smd name="9" x="0.2" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="10" x="0.2" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="11" x="-0.2" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="13" x="-0.6" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="15" x="-1" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="17" x="-1.4" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="7" x="0.6" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="5" x="1" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="3" x="1.4" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="21" x="1.8" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="19" x="-1.8" y="1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="12" x="-0.2" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="14" x="-0.6" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="16" x="-1" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="18" x="-1.4" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="20" x="-1.8" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="8" x="0.6" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="6" x="1" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="4" x="1.4" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
-<smd name="22" x="1.8" y="-1.5" dx="1" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="0.2" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.2" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="-0.2" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="-0.6" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="15" x="-1" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="17" x="-1.4" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="0.6" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="5" x="1" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="3" x="1.4" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="1.8" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="19" x="-1.8" y="2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="-0.2" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="14" x="-0.6" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="16" x="-1" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="18" x="-1.4" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="-1.8" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="0.6" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="6" x="1" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="4" x="1.4" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
+<smd name="22" x="1.8" y="-2" dx="2" dy="0.2" layer="1" rot="R90"/>
 <wire x1="-2.8" y1="1.85" x2="3" y2="1.85" width="0.127" layer="21"/>
 <wire x1="3" y1="1.85" x2="3" y2="-1.85" width="0.127" layer="21"/>
 <wire x1="3" y1="-1.85" x2="-2.8" y2="-1.85" width="0.127" layer="21"/>
