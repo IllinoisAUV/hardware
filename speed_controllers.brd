@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -168,72 +168,55 @@
 <text x="0.889" y="58.42" size="1.27" layer="25">6</text>
 <text x="3.429" y="58.42" size="1.27" layer="25">7</text>
 <text x="5.969" y="58.42" size="1.27" layer="25">8</text>
-<text x="-54.61" y="-40.64" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="-40.894" y="-40.64" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="-26.924" y="-40.894" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="-12.954" y="-40.894" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="1.016" y="-41.148" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="14.986" y="-41.148" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="28.956" y="-41.148" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="42.926" y="-41.148" size="1.27" layer="25" rot="R270">VIN</text>
-<text x="52.324" y="-41.148" size="1.27" layer="25" rot="R270">GND</text>
-<text x="38.354" y="-41.148" size="1.27" layer="25" rot="R270">GND</text>
+<text x="42.291" y="-19.177" size="1.27" layer="25" rot="R90">GND</text>
 <text x="24.384" y="-41.148" size="1.27" layer="25" rot="R270">GND</text>
-<text x="10.414" y="-41.148" size="1.27" layer="25" rot="R270">GND</text>
-<text x="-3.556" y="-41.402" size="1.27" layer="25" rot="R270">GND</text>
-<text x="-17.526" y="-41.148" size="1.27" layer="25" rot="R270">GND</text>
-<text x="-31.496" y="-40.894" size="1.27" layer="25" rot="R270">GND</text>
-<text x="-45.466" y="-40.894" size="1.27" layer="25" rot="R270">GND</text>
-<text x="-46.228" y="-37.084" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="-32.512" y="-37.084" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="-18.542" y="-36.83" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="-4.572" y="-36.83" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="9.652" y="-36.83" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="23.622" y="-36.83" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="37.592" y="-36.83" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="51.562" y="-36.83" size="1.27" layer="25" rot="R90">PWM</text>
-<text x="-51.562" y="-36.576" size="1.27" layer="25" rot="R90">GND</text>
-<text x="-37.338" y="-36.83" size="1.27" layer="25" rot="R90">GND</text>
-<text x="-23.368" y="-36.83" size="1.27" layer="25" rot="R90">GND</text>
-<text x="-9.398" y="-36.83" size="1.27" layer="25" rot="R90">GND</text>
-<text x="4.572" y="-36.83" size="1.27" layer="25" rot="R90">GND</text>
-<text x="18.542" y="-37.084" size="1.27" layer="25" rot="R90">GND</text>
-<text x="32.258" y="-36.83" size="1.27" layer="25" rot="R90">GND</text>
-<text x="46.482" y="-36.83" size="1.27" layer="25" rot="R90">GND</text>
-<text x="-47.498" y="-37.084" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="-52.832" y="-36.576" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="-33.782" y="-37.084" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="-38.608" y="-36.83" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="-19.812" y="-36.83" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="-24.638" y="-36.83" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="-5.842" y="-36.83" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="-10.668" y="-36.83" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="8.382" y="-36.83" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="3.302" y="-36.83" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="22.352" y="-36.83" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="17.272" y="-37.084" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="36.322" y="-36.83" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="30.988" y="-36.83" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="50.292" y="-36.83" size="1.27" layer="26" rot="MR90">PWM</text>
-<text x="45.212" y="-36.83" size="1.27" layer="26" rot="MR90">GND</text>
-<text x="30.226" y="-41.148" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="39.624" y="-41.148" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="44.196" y="-41.148" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="53.594" y="-41.148" size="1.27" layer="26" rot="MR270">GND</text>
+<text x="9.652" y="-19.05" size="1.27" layer="25" rot="R90">PWM</text>
+<text x="22.352" y="-10.16" size="1.27" layer="25" rot="R90">PWM</text>
+<text x="35.052" y="-20.32" size="1.27" layer="25" rot="R90">PWM</text>
+<text x="47.752" y="-19.05" size="1.27" layer="25" rot="R90">PWM</text>
+<text x="4.572" y="-19.05" size="1.27" layer="25" rot="R90">GND</text>
+<text x="17.272" y="-10.414" size="1.27" layer="25" rot="R90">GND</text>
 <text x="25.654" y="-41.148" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="16.256" y="-41.148" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="11.684" y="-41.148" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="2.286" y="-41.148" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="-2.286" y="-41.402" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="-11.684" y="-40.894" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="-16.256" y="-41.148" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="-25.654" y="-40.894" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="-30.226" y="-40.894" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="-39.624" y="-40.64" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="-44.196" y="-40.894" size="1.27" layer="26" rot="MR270">GND</text>
-<text x="-53.34" y="-40.64" size="1.27" layer="26" rot="MR270">VIN</text>
-<text x="18.542" y="11.43" size="1.27" layer="25">+</text>
 <circle x="0" y="0" radius="127" width="0.254" layer="1"/>
+<text x="-12.065" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="-9.525" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="-6.985" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="-4.445" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="-1.905" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="0.635" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="3.175" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="5.715" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="8.255" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="10.795" y="52.07" size="1.778" layer="25" rot="R270">GND</text>
+<text x="12.7" y="58.42" size="1.778" layer="25" rot="R90">5V</text>
+<text x="10.16" y="58.42" size="1.778" layer="25" rot="R90">KILL</text>
+<text x="6.985" y="22.86" size="1.778" layer="22" rot="MR0">+</text>
+<text x="6.35" y="5.715" size="1.778" layer="22" rot="MR180">-</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="21" rot="R90">PWM</text>
+<text x="-15.24" y="-18.415" size="1.27" layer="21" rot="R90">PWM</text>
+<text x="-27.94" y="-9.525" size="1.27" layer="21" rot="R90">PWM</text>
+<text x="-40.64" y="-18.415" size="1.27" layer="21" rot="R90">PWM</text>
+<text x="-46.355" y="-18.415" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-33.655" y="-9.525" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-20.955" y="-18.415" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-8.255" y="-10.16" size="1.27" layer="21" rot="R90">GND</text>
+<text x="29.845" y="-20.32" size="1.27" layer="21" rot="R90">GND</text>
+<text x="12.065" y="-35.56" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="-0.635" y="-26.67" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="37.465" y="-36.83" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="24.765" y="-26.67" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="50.165" y="-35.56" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="-12.7" y="-35.56" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="-26.035" y="-26.67" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="-38.1" y="-35.56" size="1.27" layer="21" rot="R90">VIN</text>
+<text x="-49.53" y="-36.195" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-36.195" y="-27.305" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-23.495" y="-36.195" size="1.27" layer="21" rot="R90">GND</text>
+<text x="1.905" y="-36.195" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-10.795" y="-27.305" size="1.27" layer="21" rot="R90">GND</text>
+<text x="14.605" y="-27.305" size="1.27" layer="21" rot="R90">GND</text>
+<text x="27.305" y="-37.465" size="1.27" layer="21" rot="R90">GND</text>
+<text x="40.005" y="-35.56" size="1.27" layer="21" rot="R90">GND</text>
 </plain>
 <libraries>
 <library name="auv">
@@ -1616,6 +1599,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <packages3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="3">
 <description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -1819,13 +1805,15 @@ design rules under a new name.</description>
 <element name="MOTOR8" library="auv" package="ESC" value="ESC" x="44.45" y="8.89"/>
 <element name="M1" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="-44.577" y="19.05" rot="MR0"/>
 <element name="M2" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="-31.75" y="19.05" rot="MR0"/>
-<element name="M3" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="-19.05" y="43.18" rot="MR0"/>
+<element name="M3" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="-19.05" y="43.18" smashed="yes" rot="MR0"/>
 <element name="M4" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="-6.35" y="19.05" rot="MR0"/>
-<element name="M5" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="6.35" y="43.18" rot="MR0"/>
+<element name="M5" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="6.35" y="43.18" smashed="yes" rot="MR0"/>
 <element name="M6" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="19.05" y="19.05" rot="MR0"/>
-<element name="M7" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="31.75" y="43.307" rot="MR0"/>
-<element name="M8" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="44.45" y="19.05" rot="MR0"/>
-<element name="U$1" library="auv" package="XT-60" value="XT-60" x="6.604" y="14.224" rot="R90"/>
+<element name="M7" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="31.75" y="43.307" smashed="yes" rot="MR0"/>
+<element name="M8" library="auv" package="TE-1-1123723-3" value="TE-1-1123723-3" x="44.45" y="19.05" smashed="yes" rot="MR0">
+<attribute name="NAME" x="49.53" y="21.59" size="1.27" layer="22" rot="MR0"/>
+</element>
+<element name="U$1" library="auv" package="XT-60" value="XT-60" x="6.731" y="14.224" rot="MR90"/>
 <element name="HE2" library="auv" package="1X03" value="" x="-54.483" y="-21.463" rot="R90"/>
 <element name="HE3" library="auv" package="1X03" value="" x="53.975" y="-21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.4698" y="-17.7038" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -1834,33 +1822,20 @@ design rules under a new name.</description>
 <element name="R1" library="auv" package="R0603" value="10k" x="-64.77" y="-19.685" smashed="yes" rot="R180">
 <attribute name="NAME" x="-64.135" y="-20.32" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="JP1" library="auv" package="2X10" value="" x="0.254" y="55.372" rot="R180"/>
+<element name="JP1" library="auv" package="2X10" value="" x="0.254" y="55.372" smashed="yes" rot="R180">
+<attribute name="VALUE" x="12.954" y="59.817" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="OK1" library="auv" package="DIL8-SMD" value="6N137SMD" x="-63.5" y="-10.795" rot="R270"/>
 <element name="FET1" library="auv" package="TO252" value="AOD403" x="-35.56" y="-46.355" smashed="yes" rot="R180">
-<attribute name="NAME" x="-31.75" y="-43.815" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-40.64" y="-43.815" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="FET2" library="auv" package="TO252" value="AOD403" x="-24.765" y="-48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-20.955" y="-45.72" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="FET3" library="auv" package="TO252" value="AOD403" x="-15.875" y="-48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-12.065" y="-45.72" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="FET4" library="auv" package="TO252" value="AOD403" x="-6.985" y="-48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-3.175" y="-45.72" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="FET5" library="auv" package="TO252" value="AOD403" x="6.35" y="-46.355" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.16" y="-43.815" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="FET6" library="auv" package="TO252" value="AOD403" x="16.51" y="-46.355" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.32" y="-43.815" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="FET7" library="auv" package="TO252" value="AOD403" x="25.4" y="-46.355" smashed="yes" rot="R180">
-<attribute name="NAME" x="29.21" y="-43.815" size="1.27" layer="25" rot="R270"/>
-</element>
-<element name="FET8" library="auv" package="TO252" value="AOD403" x="34.925" y="-46.355" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.735" y="-43.815" size="1.27" layer="25" rot="R270"/>
-</element>
+<element name="FET2" library="auv" package="TO252" value="AOD403" x="-24.765" y="-48.26" smashed="yes" rot="R180"/>
+<element name="FET3" library="auv" package="TO252" value="AOD403" x="-15.875" y="-48.26" smashed="yes" rot="R180"/>
+<element name="FET4" library="auv" package="TO252" value="AOD403" x="-6.985" y="-48.26" smashed="yes" rot="R180"/>
+<element name="FET5" library="auv" package="TO252" value="AOD403" x="6.35" y="-46.355" smashed="yes" rot="R180"/>
+<element name="FET6" library="auv" package="TO252" value="AOD403" x="16.51" y="-46.355" smashed="yes" rot="R180"/>
+<element name="FET7" library="auv" package="TO252" value="AOD403" x="25.4" y="-46.355" smashed="yes" rot="R180"/>
+<element name="FET8" library="auv" package="TO252" value="AOD403" x="34.925" y="-46.355" smashed="yes" rot="R180"/>
 <element name="LED1" library="auv" package="LED-0603" value="LED" x="-37.592" y="-48.768" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-38.735" y="-46.355" size="1.27" layer="26" rot="MR270"/>
 </element>
@@ -1930,7 +1905,7 @@ design rules under a new name.</description>
 <contactref element="MOTOR4" pad="GND"/>
 <contactref element="MOTOR3" pad="GND"/>
 <contactref element="MOTOR5" pad="GND"/>
-<contactref element="U$1" pad="P$2"/>
+<contactref element="U$1" pad="P$1"/>
 <contactref element="HE2" pad="2"/>
 <contactref element="HE3" pad="2"/>
 <contactref element="R2" pad="1"/>
@@ -1949,7 +1924,7 @@ design rules under a new name.</description>
 <vertex x="76.2" y="-76.2"/>
 <vertex x="-76.2" y="-76.2"/>
 </polygon>
-<contactref element="U$1" pad="P$1"/>
+<contactref element="U$1" pad="P$2"/>
 <contactref element="HE2" pad="1"/>
 <contactref element="HE3" pad="1"/>
 <contactref element="R1" pad="2"/>
@@ -1970,7 +1945,7 @@ design rules under a new name.</description>
 <contactref element="FET3" pad="G"/>
 <contactref element="FET2" pad="G"/>
 <contactref element="FET1" pad="G"/>
-<wire x1="36.83" y1="-40.005" x2="27.305" y2="-40.005" width="0.254" layer="16"/>
+<wire x1="36.83" y1="-40.005" x2="27.305" y2="-40.005" width="0" layer="19" extent="1-16"/>
 <wire x1="27.305" y1="-40.005" x2="18.415" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="18.415" y1="-40.005" x2="8.89" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="8.89" y1="-40.005" x2="-4.445" y2="-40.005" width="0.254" layer="16"/>
@@ -1983,8 +1958,6 @@ design rules under a new name.</description>
 <wire x1="-4.705" y1="-43.46" x2="-4.445" y2="-43.2" width="0.254" layer="1"/>
 <wire x1="-4.445" y1="-43.2" x2="-4.445" y2="-40.005" width="0.254" layer="1"/>
 <via x="-4.445" y="-40.005" extent="1-16" drill="0.35"/>
-<wire x1="8.63" y1="-41.555" x2="8.89" y2="-43.2" width="0.254" layer="1"/>
-<wire x1="8.89" y1="-43.2" x2="8.89" y2="-40.005" width="0.254" layer="1"/>
 <via x="8.89" y="-40.005" extent="1-16" drill="0.35"/>
 <wire x1="18.79" y1="-41.555" x2="18.79" y2="-40.38" width="0.254" layer="1"/>
 <wire x1="18.79" y1="-40.38" x2="18.415" y2="-40.005" width="0.254" layer="1"/>
@@ -2000,9 +1973,8 @@ design rules under a new name.</description>
 <wire x1="-22.485" y1="-43.46" x2="-22.485" y2="-40.38" width="0.254" layer="1"/>
 <wire x1="-22.485" y1="-40.38" x2="-22.86" y2="-40.005" width="0.254" layer="1"/>
 <via x="-22.86" y="-40.005" extent="1-16" drill="0.35"/>
-<wire x1="-31.75" y1="-40.005" x2="-41.91" y2="-40.005" width="0.254" layer="16"/>
+<wire x1="-31.75" y1="-40.005" x2="-50.165" y2="-40.005" width="0.254" layer="16"/>
 <via x="-62.23" y="-22.86" extent="1-16" drill="0.35"/>
-<wire x1="-41.91" y1="-40.005" x2="-42.545" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="-62.23" y1="-22.86" x2="-62.23" y2="-19.05" width="0.254" layer="1"/>
 <wire x1="-62.23" y1="-19.05" x2="-62.23" y2="-14.605" width="0.254" layer="1"/>
 <wire x1="-62.23" y1="-14.605" x2="-64.77" y2="-12.065" width="0.254" layer="1"/>
@@ -2016,8 +1988,9 @@ design rules under a new name.</description>
 <wire x1="53.975" y1="-24.13" x2="53.975" y2="-36.195" width="0.254" layer="16"/>
 <wire x1="53.975" y1="-36.195" x2="50.165" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="-62.23" y1="-22.86" x2="-62.23" y2="-27.94" width="0.254" layer="16"/>
-<wire x1="-50.165" y1="-40.005" x2="-42.545" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="-62.23" y1="-27.94" x2="-50.165" y2="-40.005" width="0.254" layer="16"/>
+<wire x1="8.63" y1="-41.555" x2="8.89" y2="-41.295" width="0.254" layer="1"/>
+<wire x1="8.89" y1="-41.295" x2="8.89" y2="-40.005" width="0.254" layer="1"/>
 </signal>
 <signal name="PWM_GND">
 <contactref element="MOTOR8" pad="PWM_GND"/>
