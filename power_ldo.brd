@@ -20265,10 +20265,10 @@ design rules under a new name.</description>
 <element name="3.3V" library="auv" package="SOT223" value="LD1117&quot;" x="12.7" y="8.89" rot="R270"/>
 <element name="5V" library="auv" package="SOT223" value="LD1117&quot;" x="12.7" y="18.034" rot="R270"/>
 <element name="U$3" library="auv" package="20-PIN-CARD-EDGE" value="POWER_EDGE_CONNEDGE" x="13.97" y="-2.54"/>
-<element name="C1" library="auv" package="C0603" value="" x="4.826" y="6.604" rot="R180"/>
-<element name="C2" library="auv" package="C0603" value="" x="19.812" y="8.89"/>
-<element name="C3" library="auv" package="C0603" value="" x="4.826" y="14.224" rot="R180"/>
-<element name="C4" library="auv" package="C0603" value="" x="19.812" y="18.034"/>
+<element name="C1" library="auv" package="C0603" value="100nF" x="4.826" y="6.604" rot="R180"/>
+<element name="C2" library="auv" package="C0603" value="10uF" x="19.812" y="8.89"/>
+<element name="C3" library="auv" package="C0603" value="100nF" x="4.826" y="14.224" rot="R180"/>
+<element name="C4" library="auv" package="C0603" value="10uF" x="19.812" y="18.034"/>
 <element name="U$1" library="auv" package="ILLINOISAUV" value="" x="13.716" y="9.652" rot="MR270"/>
 </elements>
 <signals>

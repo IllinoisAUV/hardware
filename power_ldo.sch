@@ -432,10 +432,10 @@
 <part name="5V" library="auv" deviceset="LD1117" device="&quot;"/>
 <part name="U$3" library="auv" deviceset="POWER_EDGE_CONN" device="EDGE"/>
 <part name="GND1" library="auv" deviceset="GND" device=""/>
-<part name="C1" library="auv" deviceset="C-EU" device="C0603"/>
-<part name="C2" library="auv" deviceset="C-EU" device="C0603"/>
-<part name="C3" library="auv" deviceset="C-EU" device="C0603"/>
-<part name="C4" library="auv" deviceset="C-EU" device="C0603"/>
+<part name="C1" library="auv" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C2" library="auv" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="C3" library="auv" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C4" library="auv" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="GND2" library="auv" deviceset="GND" device=""/>
 <part name="GND3" library="auv" deviceset="GND" device=""/>
 </parts>
