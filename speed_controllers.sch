@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -201,48 +201,48 @@ TS-003</description>
 <wire x1="-3.93" y1="-47.98" x2="3.93" y2="-47.98" width="0.127" layer="21"/>
 <wire x1="3.93" y1="-47.98" x2="3.93" y2="-41.18" width="0.127" layer="21"/>
 <wire x1="3.93" y1="-41.18" x2="-3.93" y2="-41.18" width="0.127" layer="21"/>
-<pad name="MOTOR2" x="0" y="43.307" drill="1.4" shape="square"/>
-<pad name="MOTOR3" x="3.96" y="43.307" drill="1.4" shape="square"/>
-<pad name="MOTOR1" x="-3.96" y="43.307" drill="1.4" shape="square"/>
-<wire x1="-5.91" y1="45.307" x2="-5.91" y2="38.507" width="0.127" layer="21"/>
-<wire x1="-5.91" y1="38.507" x2="5.91" y2="38.507" width="0.127" layer="21"/>
-<wire x1="5.91" y1="38.507" x2="5.91" y2="45.307" width="0.127" layer="21"/>
-<wire x1="5.91" y1="45.307" x2="-5.91" y2="45.307" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="38.1" x2="5.08" y2="38.1" width="0.127" layer="21"/>
-<wire x1="5.08" y1="38.1" x2="5.08" y2="-38.1" width="0.127" layer="21"/>
+<pad name="MOTOR2" x="0" y="25.527" drill="1.4" shape="square"/>
+<pad name="MOTOR3" x="3.96" y="25.527" drill="1.4" shape="square"/>
+<pad name="MOTOR1" x="-3.96" y="25.527" drill="1.4" shape="square"/>
+<wire x1="-5.91" y1="27.527" x2="-5.91" y2="20.727" width="0.127" layer="21"/>
+<wire x1="-5.91" y1="20.727" x2="5.91" y2="20.727" width="0.127" layer="21"/>
+<wire x1="5.91" y1="20.727" x2="5.91" y2="27.527" width="0.127" layer="21"/>
+<wire x1="5.91" y1="27.527" x2="-5.91" y2="27.527" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="19.05" x2="5.08" y2="19.05" width="0.127" layer="21"/>
+<wire x1="5.08" y1="19.05" x2="5.08" y2="-38.1" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-38.1" x2="-5.08" y2="-38.1" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-38.1" x2="-5.08" y2="38.1" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-38.1" x2="-5.08" y2="19.05" width="0.127" layer="21"/>
 <text x="6.35" y="-38.1" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-<wire x1="-3.175" y1="-33.02" x2="-1.905" y2="-33.02" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-33.02" x2="-1.27" y2="-33.655" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-33.655" x2="-1.27" y2="-34.925" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-34.925" x2="-1.905" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-33.655" x2="-0.635" y2="-33.02" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-33.02" x2="0.635" y2="-33.02" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-33.02" x2="1.27" y2="-33.655" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-33.655" x2="1.27" y2="-34.925" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-34.925" x2="0.635" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-35.56" x2="-0.635" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-35.56" x2="-1.27" y2="-34.925" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-33.655" x2="-3.81" y2="-34.925" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-33.02" x2="-3.81" y2="-33.655" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-34.925" x2="-3.175" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-35.56" x2="-3.175" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-33.655" x2="1.905" y2="-33.02" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-33.02" x2="3.175" y2="-33.02" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-33.02" x2="3.81" y2="-33.655" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-33.655" x2="3.81" y2="-34.925" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-34.925" x2="3.175" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-35.56" x2="1.905" y2="-35.56" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-35.56" x2="1.27" y2="-34.925" width="0.1524" layer="21"/>
-<pad name="PWM_GND" x="-2.54" y="-34.29" drill="1.016" shape="long" rot="R90"/>
-<pad name="PWM_VIN" x="0" y="-34.29" drill="1.016" shape="long" rot="R90"/>
-<pad name="PWM_SIG" x="2.54" y="-34.29" drill="1.016" shape="long" rot="R90"/>
+<wire x1="-3.175" y1="-29.21" x2="-1.905" y2="-29.21" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-29.21" x2="-1.27" y2="-29.845" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-29.845" x2="-1.27" y2="-31.115" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-31.115" x2="-1.905" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-29.845" x2="-0.635" y2="-29.21" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-29.21" x2="0.635" y2="-29.21" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-29.21" x2="1.27" y2="-29.845" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-29.845" x2="1.27" y2="-31.115" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-31.115" x2="0.635" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-31.75" x2="-0.635" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-31.75" x2="-1.27" y2="-31.115" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-29.845" x2="-3.81" y2="-31.115" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-29.21" x2="-3.81" y2="-29.845" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-31.115" x2="-3.175" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-31.75" x2="-3.175" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-29.845" x2="1.905" y2="-29.21" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-29.21" x2="3.175" y2="-29.21" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-29.21" x2="3.81" y2="-29.845" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-29.845" x2="3.81" y2="-31.115" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-31.115" x2="3.175" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-31.75" x2="1.905" y2="-31.75" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-31.75" x2="1.27" y2="-31.115" width="0.1524" layer="21"/>
+<pad name="PWM_GND" x="-2.54" y="-30.48" drill="1.016" shape="long" rot="R90"/>
+<pad name="PWM_VIN" x="0" y="-30.48" drill="1.016" shape="long" rot="R90"/>
+<pad name="PWM_SIG" x="2.54" y="-30.48" drill="1.016" shape="long" rot="R90"/>
 <text x="-3.8862" y="-32.4612" size="1.27" layer="25" ratio="10"></text>
 <text x="-3.81" y="-37.465" size="1.27" layer="27"></text>
-<rectangle x1="-0.254" y1="-34.544" x2="0.254" y2="-34.036" layer="51"/>
-<rectangle x1="-2.794" y1="-34.544" x2="-2.286" y2="-34.036" layer="51"/>
-<rectangle x1="2.286" y1="-34.544" x2="2.794" y2="-34.036" layer="51"/>
+<rectangle x1="-0.254" y1="-30.734" x2="0.254" y2="-30.226" layer="51"/>
+<rectangle x1="-2.794" y1="-30.734" x2="-2.286" y2="-30.226" layer="51"/>
+<rectangle x1="2.286" y1="-30.734" x2="2.794" y2="-30.226" layer="51"/>
 </package>
 <package name="TE-1-1123723-3">
 <pad name="2" x="0" y="0" drill="1.4" shape="square"/>
@@ -5242,6 +5242,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R9" library="auv" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND16" library="auv" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="R10" library="auv" deviceset="R-US_" device="R0603" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5287,7 +5288,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SUPPLY9" gate="G$1" x="12.7" y="-81.28" rot="R90"/>
 <instance part="JP1" gate="A" x="35.56" y="-71.12" rot="R270"/>
 <instance part="OK1" gate="A" x="88.9" y="-111.76"/>
-<instance part="SUPPLY10" gate="G$1" x="71.12" y="-93.98"/>
+<instance part="SUPPLY10" gate="G$1" x="66.04" y="-99.06"/>
 <instance part="FET1" gate="G$1" x="-2.54" y="-27.94" rot="R180"/>
 <instance part="FET2" gate="G$1" x="-2.54" y="35.56" rot="R180"/>
 <instance part="FET3" gate="G$1" x="-2.54" y="91.44" rot="R180"/>
@@ -5321,6 +5322,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R9" gate="G$1" x="86.36" y="-30.48"/>
 <instance part="GND16" gate="1" x="96.52" y="-33.02"/>
 <instance part="C1" gate="G$1" x="83.82" y="-76.2"/>
+<instance part="R10" gate="G$1" x="71.12" y="-106.68" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5449,11 +5451,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="60.96" y1="99.06" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="-2.54" y1="43.18" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="FET2" gate="G$1" pin="S"/>
-</segment>
-<segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="-2.54" y1="99.06" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -5488,9 +5485,13 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
-<pinref part="OK1" gate="A" pin="A"/>
-<wire x1="71.12" y1="-96.52" x2="71.12" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-106.68" x2="71.12" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-101.6" x2="66.04" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="FET2" gate="G$1" pin="S"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="-2.54" y1="40.64" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FET_G" class="0">
@@ -6071,6 +6072,12 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-81.28" x2="83.82" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="83.82" y="-88.9"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="OK1" gate="A" pin="A"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
