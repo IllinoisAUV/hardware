@@ -1899,7 +1899,8 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-54.864" y="-12.192" rot="R270">
 <attribute name="SPICEPREFIX" value="C" x="-54.864" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R10" library="auv" package="R0603" value="10k" x="-62.992" y="-2.54"/>
+<element name="R10" library="auv" package="R0603" value="2k" x="-62.992" y="-2.54"/>
+<element name="HE1" library="auv" package="1X03" value="" x="1.016" y="-55.88"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1928,6 +1929,7 @@ design rules under a new name.</description>
 <contactref element="R7" pad="2"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R9" pad="2"/>
+<contactref element="HE1" pad="2"/>
 </signal>
 <signal name="VCC">
 <polygon width="0.4064" layer="1" isolate="0.254">
@@ -1943,6 +1945,7 @@ design rules under a new name.</description>
 <contactref element="FET1" pad="S"/>
 <contactref element="R10" pad="2"/>
 <contactref element="FET2" pad="S"/>
+<contactref element="HE1" pad="1"/>
 </signal>
 <signal name="FET_G">
 <contactref element="HE2" pad="3"/>
@@ -1959,7 +1962,8 @@ design rules under a new name.</description>
 <contactref element="FET1" pad="G"/>
 <wire x1="27.305" y1="-40.005" x2="18.415" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="18.415" y1="-40.005" x2="8.89" y2="-40.005" width="0.254" layer="16"/>
-<wire x1="8.89" y1="-40.005" x2="-4.445" y2="-40.005" width="0.254" layer="16"/>
+<wire x1="8.89" y1="-40.005" x2="0" y2="-40.005" width="0.254" layer="16"/>
+<wire x1="0" y1="-40.005" x2="-4.445" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="-4.445" y1="-40.005" x2="-13.97" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="-13.97" y1="-40.005" x2="-22.86" y2="-40.005" width="0.254" layer="16"/>
 <wire x1="-31.75" y1="-40.005" x2="-22.86" y2="-40.005" width="0.254" layer="16"/>
@@ -2003,6 +2007,10 @@ design rules under a new name.</description>
 <wire x1="8.63" y1="-41.555" x2="8.89" y2="-41.295" width="0.254" layer="1"/>
 <wire x1="8.89" y1="-41.295" x2="8.89" y2="-40.005" width="0.254" layer="1"/>
 <wire x1="27.305" y1="-40.005" x2="36.83" y2="-40.005" width="0.254" layer="16"/>
+<contactref element="HE1" pad="3"/>
+<wire x1="0" y1="-52.07" x2="0" y2="-40.005" width="0.254" layer="16"/>
+<wire x1="3.556" y1="-55.88" x2="3.556" y2="-55.626" width="0.254" layer="16"/>
+<wire x1="3.556" y1="-55.626" x2="0" y2="-52.07" width="0.254" layer="16"/>
 </signal>
 <signal name="PWM_GND">
 <contactref element="MOTOR8" pad="PWM_GND"/>
